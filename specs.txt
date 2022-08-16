@@ -1,0 +1,23 @@
+# Let's create this as a user story
+
+++ Screenshot automation for Bulk amount of URLs
+
++ Mike would like screenshots of some bulk amount of URLs
++ He inputs a filename containing the URLs to the python script 
++ Python script grabs Urls from the files, traverse them one after the one
+	+ taking screenshots of each websites with additional informations
+		+ Timestamp
+		+ URL
+		+ Title of website
++ Filename of the screenshot includes the domain name ## domain + timestamp for uniqueness
+
++ The python script is able to run from a local computer or virtual machine. 
+
+# TODO: We can also consider taking the screenshot of the source code but this aint very accurate
+# unless we have a way of grabbing the source code from the inspect tool, this is more accurate than simply
+# hitting CTRL+U and grabbing what we have in there
+
+# TODO: Schedule this to run from time to time
+# TODO: This can serve as a WBM
+
+# TODO: Make a django app to interface with DB, with a nice simple DASHBOARD
