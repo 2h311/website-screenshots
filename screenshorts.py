@@ -12,7 +12,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
-
 images_folder = Path(Path.cwd(), 'images')
 if not images_folder.exists():
 	images_folder.mkdir()
